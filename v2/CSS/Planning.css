@@ -1,0 +1,241 @@
+#leHover{
+	position: relative;
+	color : black;
+	text-decoration: none;
+}
+
+#leHoverPersonne{
+   position: relative;
+   text-decoration: none;
+}
+
+#leHover span, #leHoverPersonne span {
+   display: none; /*  On masque l'infobulle. */
+}
+
+#leHover:hover, #leHoverPersonne:hover {
+   z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
+   cursor: help; /* On change le curseur par défaut par un curseur d'aide. */
+}
+td.Libelle{
+	font-weight : bold;
+}
+#leHover:hover span, #leHoverPersonne:hover span {
+   display: inline; /* On affiche l'infobulle. */
+   position: absolute;
+   white-space: nowrap; /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
+   top: 30px; /* On positionne notre infobulle. */
+   left: 20px;
+   background: white;
+   color: black;
+   padding: 3px;
+   border: 1px solid blue;
+   border-left: 4px solid blue;
+   font-size:12px;
+   text-align:left;
+}
+
+#leHover:hover span table,#leHover:hover span table td {
+   border: 1px solid black;
+   text-align : center;
+   border-collapse : collapse;
+}
+
+td.semaine{
+	font:Arial;color:#FFFFFF;font-size:10px;
+	height:15px;
+	vertical-align:middle;
+	background-color:white;
+}
+
+td.weekFerie{
+	font:Arial;color:#FFFFFF;font-size:10px;
+	height:15px;
+	vertical-align:middle;
+	background-color:#e9e9e9;
+}
+
+td.EnTetePlanning{
+	font:Arial;color:#FFFFFF;font-size:10px;
+	vertical-align:middle;
+	background-color:#548FFB;
+	width:35px;
+	text-align:center;
+	padding:1px;
+}
+
+td.EnTetePlanningJour{
+	font:Arial;color:#0;font-size:10px;
+	vertical-align:middle;
+	background-color:#f4f521;
+	width:35px;
+	text-align:center;
+	padding:1px;
+}
+
+td.EnTeteMois{
+	font:Arial;color:#FFFFFF;font-size:10px;
+	vertical-align:middle;
+	background-color:#548FFB;
+	text-align:center;
+	padding:1px;
+}
+
+td.EnTeteSemaine{
+	font:Arial;color:#FFFFFF;font-size:10px;
+	vertical-align:middle;
+	background-color:#009cdc;
+	text-align:center;
+	padding:1px;
+}
+
+td.PersonnePlanning{
+	font:Arial;color:white;font-size:11px;height:15px;
+	vertical-align:middle;
+	background-color:#548FFB;
+	text-align:left;
+	padding:1px;
+	width:250px;
+}
+
+td.PersonnePlanning2{
+	font:Arial;color:white;font-size:11px;height:15px;
+	vertical-align:middle;
+	background-color:#347afa;
+	text-align:left;
+	padding:1px;
+	width:200px;
+}
+
+td.MetierPlanning{
+	font:Arial;color:white;font-size:11px;height:15px;
+	vertical-align:middle;
+	background-color:#548FFB;
+	text-align:center;
+	padding:1px;
+	width:100px;
+}
+
+td.MetierPlanning2{
+	font:Arial;color:white;font-size:11px;height:15px;
+	vertical-align:middle;
+	background-color:#347afa;
+	text-align:center;
+	padding:1px;
+	width:100px;
+}
+
+td.rempliSansFormation{
+	font:Arial;color:#000000;font-size:11px;font-weight:bold;
+	height:15px;
+	text-align:center;
+}
+
+td.rempliAvecFormation{
+	font:Arial;color:#000000;font-size:11px;font-weight:bold;
+	height:13px;
+	text-align:center;
+	background-image:url("../Images/Rayure.gif");
+}
+td.rempliAvecCommentaire{
+	font:Arial;color:#000000;font-size:11px;font-weight:bold;
+	height:15px;
+	text-align:center;
+	background-image:url("../Images/Commentaire.gif");
+}
+td.rempliAvecFormationEtCommentaire{
+	font:Arial;color:#000000;font-size:11px;font-weight:bold;
+	height:13px;
+	text-align:center;
+	background-image:url("../Images/RayureEtCommentaire.gif");
+}
+
+td{
+	font:Arial;color:#000000;font-size:11px;
+}
+
+textarea{ 
+	font:Arial;font-size:11px;
+	resize:none;
+}
+
+input.boutonTrier {
+  height: 20px;
+  width: 55px;
+} 
+input.boutonFiltrer {
+  height: 20px;
+  width: 110px;
+  text-align:center;
+} 
+
+select.prestation {
+  width: 170px;
+} 
+
+select.pole {
+  width: 100px;
+}
+
+td.checkbox{
+	font:Arial;color:black;font-size:10px;height:15px;
+	vertical-align:middle;
+	background-color:#548FFB;
+	text-align:center;
+	padding:1px;
+	width:20px;
+}
+
+td.checkbox2{
+	font:Arial;color:black;font-size:10px;height:15px;
+	vertical-align:middle;
+	background-color:#548FFB;
+	text-align:center;
+	padding:1px;
+	width:20px;
+}
+
+form.test{
+  margin:0;
+  margin-top:0;
+  width:100%;
+  box-shadow: none;
+  border-radius:none;
+  border:none;
+}
+
+td.EnTetePlanningSurveillanceJour{
+	font:Arial;color:#0;font-size:10px;
+	vertical-align:middle;
+	background-color:#ff8400;
+	width:35px;
+	text-align:center;
+	padding:1px;
+}
+
+td.TitreMenu{font-weight:bold;color:#000000;font-size:12px;height:25px;vertical-align:middle;border:1px #000000 solid;background-color:#c7e4f1;padding-left:10px;}
+
+td.cEnTete{
+	border:1px solid #787878;
+	background-color:#146eb1;
+	font:bold 11px;
+	color:#ffffff;
+	font-weight:bold;
+}
+td.cLigne1{
+	font:bold 8px;
+}
+
+td.semaine2{
+	font:Arial;color:#FFFFFF;font-size:10px;
+	height:15px;
+	vertical-align:middle;
+	background-color:#ebebeb;
+}
+
+td.weekFerie2{
+	font:Arial;color:#FFFFFF;font-size:10px;
+	height:15px;
+	vertical-align:middle;
+	background-color:#b1b1b1;
+}

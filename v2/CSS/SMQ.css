@@ -1,0 +1,11 @@
+html,body{font-family:calibri;padding:0;margin:0;height:100%;background-color:#CCCCCC;}
+
+a {text-decoration : none;}
+td{text-align:center;}
+td.PageAccueil {width:100%;text-align:center;text-align:middle;color:#000000;font-size:110px;font-weight:bold;}
+td.PagePyramide{text-align:center;vertical-align:middle;color:#000000;font-size:48px;font-weight:bold;}
+td.AutresDocuments{text-align:left;vertical-align:top;}
+table.Pyramide{background-image:url('../Images/SMQ/Pyramide.gif');}
+.Bouton{color:#000000;font-weight:600;font-size:40;border:1px solid;text-align:center;}
+.EtagePyramide{background: #CCCCCC; border-radius:4px 4px 4px 4px;font-size:16px;text-align:center;border:1px solid;}
+.SousMenu{text-align:left;background: #EEEEEE; border-radius:4px 4px 4px 4px;border:1px solid;padding:5 30 5 10;font-size:16px;color:#000000;visibility:hidden;}

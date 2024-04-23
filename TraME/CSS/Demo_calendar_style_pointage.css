@@ -1,0 +1,315 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+a.info {
+    position:relative;
+    text-decoration: none;
+}
+
+a:hover.info {
+    background: none;
+}
+
+a.info span {display: none;}
+
+a:hover.info span {
+    display: inline;
+    position: absolute;
+    bottom:2em;
+    left:0.5em;
+    z-index: 20;
+    font-size:1.2em;
+    background: #6586C5;
+    color: #fff;
+    border:1px solid #666;
+    width:100px;
+    text-align:center;
+    font-weight:normal;
+    line-height:12px;
+    padding:2px 4px;
+}
+#dialog{
+    display:none;
+}
+.info_activation_module{
+    padding:1px;
+    width:40%;
+    border:1px solid #f0eeee;
+    background-color:#dbf399;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    font-size:1.2em;
+}
+
+#calendrier{
+    border: 1px solid #B9BEBD;
+}
+span.semaine_en_cours{
+    font-weight:bold;
+	text-align:center;
+    font-size:1.5em;
+    color:#424545;
+    margin-left:15px;
+}
+#calendrier table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+#calendrier th.premier{
+    background-color: #CCDFFE;
+    font-size: 1.2em;
+    color:rgb(68,102,136);
+    font-size:1.1em;
+    font-weight:bold;
+	width:10%;
+}
+#calendrier th.autre{
+    background-color: #CCDFFE;
+    font-size: 1.2em;
+    color:rgb(68,102,136);
+    font-size:1.1em;
+    font-weight:bold;
+	width:9%;
+}
+#calendrier th.autre2{
+    background-color: #CCDFFE;
+    font-size: 1.2em;
+    color:rgb(68,102,136);
+    font-size:1.1em;
+    font-weight:bold;
+	width:4.5%;
+}
+#calendrier td.premier{
+	background-color:#ffffff;
+    background-repeat:repeat;
+    background-position:top right;
+    font-size: 1em;
+    border-left-width:1px;
+    border-color:#d7d7d7;
+    border-style:solid;
+	width:10%;
+}
+#calendrier td.autre{
+	background-color:#ffffff;
+    background-position:top right;
+    font-size: 1em;
+    border-left-width:1px;
+    border-color:#d7d7d7;
+    border-style:solid;
+	width:4.5%;
+}
+#calendrier.lienCalendrierJour
+{
+    background-color: #CDF0F0;
+    text-decoration: underline;
+}
+#calendrier td.current_day{
+    background-color:#ffffff;
+    background-position:top right;
+}
+#calendrier td.event_day{
+    background-color:#809be6;
+    border-bottom:0px solid #fff;
+    border-top:0px solid #fff;
+    border-left:1px solid rgb(221,221,221);
+    border-right:1px solid rgb(221,221,221);
+    color:#fff;
+    font-weight:bolder;
+    font-size:1.1em;
+}
+#calendrier table th.th_td_content{
+    border-bottom:1px solid rgb(221,221,221);
+    color:rgb(68,102,136);
+    font-size:1.1em;
+    font-weight:normal;
+    background-color:rgb(232,238,247);
+}
+div.calendar_event{
+    background-color:#809be6;
+    color:#fff;
+    font-weight:bolder;
+    font-size:1.2em;
+    position:absolute;
+    text-align:center;
+}
+div.calendar_event_title{
+    font-size:0.9em;
+}
+.journee_cell_td .calendar_event{
+    width:10%;
+}
+td.info_horaires{
+    background-color:rgb(232,238,247);
+    width:20px;
+    text-align:center;
+}
+th.info_horaires{
+    background-color:rgb(232,238,247);
+    width:50px;
+    text-align:center;
+}
+div.info_horaires_content{
+    height:30px;
+    border-bottom:1px solid rgb(221,221,221);
+    color:rgb(68,102,136);
+    font-size:1.2em;
+    font-weight:bold;
+    background-color:rgb(232,238,247);
+}
+div.calendar_event_date{
+    font-weight:bolder;
+    background-color:#2246a9;
+}
+div.calendar_event_lieu{
+    display:none;
+}
+div.calendar_event_titre{
+}
+div#create_event{
+    /*   display:none;*/
+}
+div#gen_new_content{
+    display:none;
+}
+div#gen_valid_content{
+    display:none;
+}
+div#gen_new_calendar{
+    display:none;
+}
+div#ajax_load{
+    margin-top:3px;
+    height:30px;
+}
+div#choix_plage_horaire{
+    margin-left:4%;
+}
+div.link_to_see_event_content{
+    font-size:1.4em;
+    position:absolute;
+    left:5px;
+    bottom:0px;
+}
+div#visu_event{
+    background-color:rgb(240, 240, 246);
+    color:#000;
+    font-size:1.2em;
+    width:70%;
+    margin:auto;
+    border: 1px solid #B9BEBD;
+}
+div#visu_event label{
+    text-decoration:underline;
+    font-weight:bold;
+}
+div#visu_event_date{
+    background-color: rgb(230, 128, 77);
+    padding-left:1%;
+}
+div#visu_event_titre{
+    padding-left:1%;
+}
+div#visu_event_lieu{
+    padding-left:1%;
+}
+div#visu_event_contenu{
+    padding:1%;
+    background-color:#fff;
+    margin:1%;
+    color:#000;
+    border: 1px solid #B9BEBD;
+}
+div#visu_event_contenu label{
+    display:block;
+    margin-bottom:10px;
+}
+div#switcher_agenda_options{
+    display:block;
+    height:25px;
+}
+div#choix_plage_horaire{
+    float:left;
+    height:25px;
+}
+div#switcher_agenda{
+    float:right;
+    height:25px;
+}
+span.switcher_agenda_inside{
+    padding-top:5px;
+    padding-bottom:4px;
+    padding-left:15px;
+    padding-right:15px;
+    border-top: 1px solid #B9BEBD;
+    border-left: 1px solid #B9BEBD;
+    border-right: 1px solid #B9BEBD;
+    border-bottom: 1px solid #B9BEBD;
+    font-size:1.2em;
+    background-color:#EDEDED;
+}
+span.switcher_agenda_inside a{
+    text-decoration:none;
+    color:rgb(68,102,136);
+}
+span.selected_switch_agenda{
+    background-color:#CCDFFE;
+    border-bottom: 1px solid #CCDFFE;
+}
+span.selected_switch_agenda a{
+    text-decoration:none;
+    color:#000;
+}
+div#select_agenda{
+    background-color: #CCDFFE;
+    font-size: 1.2em;
+    color:rgb(68,102,136);
+    width:300px;
+    border: 1px solid #B9BEBD;
+    position:absolute;
+    z-index:10;
+    top:190px;
+    margin-left:15px;
+}
+div.menu_revelation{
+    color: rgb(68, 102, 136);
+    cursor: pointer;
+    font-size: 30px;
+    left: 277px;
+    padding: 0px;
+    position: absolute;
+    top: -7px;
+}
+div#select_agenda_titre{
+    margin:4px;
+    color:rgb(68, 102, 136);
+}
+div#select_agenda_content_list{
+    background-color:#fff;
+    margin:2px;
+    padding:2px;
+}
+div#select_agenda_more{
+    text-align:right;
+}
+div#select_agenda_more a{
+    margin-right:10px;
+    margin-top:5px;
+    color:rgb(68, 102, 136);
+    text-decoration:none;
+}
+div#select_agenda_more a:hover{
+    text-decoration:underline;
+}
+div.select_agenda_selector{
+    margin:2px;
+    padding:2px;
+    cursor:pointer;
+    text-decoration:underline;
+}
+div#list_class_color{
+    display:none;
+}

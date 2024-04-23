@@ -1,0 +1,108 @@
+.conteneurTDB {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+	align-items: start;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.BlocFeedback{
+	grid-column: 1 / 4;
+	text-align:right;
+}
+.imageAccueil{
+	width:100%;
+}
+
+.BlocThemeTDB{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+	align-items: start;
+}
+
+.blocTheme{
+	padding-bottom:60px;
+}
+
+.ImageTDB{
+	grid-column: 1 / 3;
+}
+.DateTDB{
+	font-family: Arial Narrow,Arial,sans-serif;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.blocUER{
+	text-align:right;
+}
+
+.TitreTDB{
+	font-family: Arial,sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color:#6EB4CD;
+	grid-column: 1 / 3;
+
+}
+
+.TexteTDB{
+	font-size: 15px;
+	text-align: justify;
+	grid-column: 1 / 3;
+	max-height:170px;
+	overflow:auto;
+}
+
+.ATelechargerTDB{
+	color:#6EB4CD;
+	text-decoration: underline;
+}
+
+.baliseUER{
+	background-color:#E1E1D7;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 16px;
+}
+
+.blocVu{
+	text-align:right;
+}
+
+.ImageTDBActu{
+	grid-column: 1 / 3;
+	position:relative;
+	margin-top: 20px;
+}
+
+.GrandTitreActu {
+	position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+	opacity:0.8;
+    background: #E60032;
+	color:#ffffff;
+}
+
+
+@media screen and (max-width: 600px) {
+	.conteneurTDB {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait){
+	.conteneurTDB {
+		grid-template-columns: 1fr;
+	}
+	
+	.BlocFeedback{
+		grid-column: 1 / 1;
+		text-align:right;
+	}
+
+}

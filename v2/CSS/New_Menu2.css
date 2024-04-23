@@ -1,0 +1,311 @@
+body{
+	padding-bottom:200px;
+}
+
+#wrapper
+{
+	width: 100%; 
+	margin: 0 auto;
+}
+
+nav
+{
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+	background: #00325f;
+}
+
+header, nav {display: block;}
+
+nav ul#menu
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: 0;
+}
+
+nav ul#menu li
+{
+	position: relative;
+	display: inline-block;
+}
+
+nav ul#menu li a
+{
+	display: block;
+	height: 30px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 30px;
+	color: white;
+	text-decoration: none;
+	padding: 0 15px;
+}
+
+nav ul#menu li a:hover , nav ul#menu li:hover  > a {background: #00325f;color:#E60032;}
+
+.mega
+{
+	position: fixed;
+	left: 0%;
+	width: 98%;
+	height: 300px;
+	padding-top: 5px;
+	padding-left: 2%;
+	background: #00325f;
+	display: none;
+	overflow: auto;
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	border: 0.5px solid #000000 ;
+	z-index: 999;
+}
+
+ul#menu ul
+{
+	float: left;
+	width: 23%;
+	margin: 0 2% 15px 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul#menu ul li{display: block;}
+
+ul#menu ul li a
+{
+  float: left;
+  display: block;
+  width: 100%;
+  height: auto;
+  line-height: 1.3em;
+  color: white;
+  text-decoration: none;
+  padding: 4px 0;
+}
+
+ul#menu ul li:first-child a
+{
+  font-size: 1.2em;
+  color: #FFFFFF;
+}
+
+ul#menu ul li a:hover
+{
+  background: #00325f;
+  color : #E60032;
+}
+
+ul#menu ul a:hover{color: #E60032;}
+
+/* clearfix */
+nav ul:after
+{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+nav ul {display: inline-block;}
+
+* html nav ul {height: 1%;}
+
+#content {padding: 30px 0;}
+
+.fixNavigation
+{
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#LibelleRecherche{color:white;}
+#btnRecherche2{color:white;}
+
+
+/*/////////BANDEAU//////////*/
+
+.bandeau {
+    display: grid;
+    grid-template-columns:1fr 10fr 1fr 1fr 3fr;
+	background-color: #00325f;
+	margin-bottom: 15px;
+}
+
+.elementBandeau{
+	margin: auto;
+}
+
+.laRecherche{
+	grid-column:1/6;
+	margin-bottom:5px;
+}
+
+.Recherche, .Titre, .Drapeau{
+	text-align:center;
+	cursor:pointer;
+	transform: scale(1);
+	transition: transform 300ms;
+}
+
+.Recherche:hover, .Titre:hover{
+	transform: scale(1.25);
+}
+
+.Drapeau:hover{
+	transform: scale(1.30);
+}
+
+.unBouton{
+	cursor:pointer;
+}
+
+@media screen and (max-width: 1024px) {
+	
+	#imageDrapeau{
+		width:40px;
+	}
+	
+	#imgAccueil{
+		width:150px;
+	}
+	#imgRecherche{
+		width:30px;
+	}
+	#wrapper{
+		display:none;
+	}
+	#menu-container{
+		display:inline;
+	}
+	.bandeau {
+		grid-template-columns:1fr 1fr 1fr 2fr 3fr;
+	}
+	
+}
+
+@media screen and (min-width: 1024px) {
+	#menu-container{
+		display:none;
+	}
+	
+}
+
+/*MENU PROFIL*/
+
+#wrapper2
+{
+	width: 100%; 
+	margin: 0 auto;
+}
+
+nav ul#menuProfil
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: 0;
+	border-bottom:1px solid white;
+}
+
+nav ul#menuProfil li
+{
+	position: relative;
+	display: inline-block;
+}
+
+nav ul#menuProfil li a
+{
+	display: block;
+	height: 30px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 30px;
+	color: white;
+	text-decoration: none;
+	padding: 0 15px;
+}
+
+nav ul#menuProfil li a:hover , nav ul#menuProfil li:hover  > a {background: #00325f;color: #E60032;}
+
+.meta
+{
+	position: fixed;
+	right: 0%;
+	padding-top: 5px;
+	padding-right: 2%;
+	background: #00325f;
+	display: none;
+	overflow: hidden;
+	box-shadow: 10px 5px 10px rgba(0,0,0,.2);
+	border: 0.5px solid #000000 ;
+	z-index: 999;
+}
+
+ul#menuProfil ul
+{
+	float: left;
+	width: 100%;
+	margin: 0 2% 15px 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul#menuProfil ul li{display: block;}
+
+ul#menuProfil ul li a
+{
+  float: left;
+  display: block;
+  width: 100%;
+  height: auto;
+  line-height: 1.3em;
+  color: white;
+  text-decoration: none;
+  padding: 4px 0;
+}
+
+ul#menuProfil ul li:first-child a
+{
+  font-size: 1.2em;
+  color: white;
+}
+
+ul#menuProfil ul li a:hover
+{
+  background: #00325f;
+  color : #E60032;
+}
+
+ul#menuProfil ul a:hover{color: #E60032;}
+
+/* clearfix */
+nav ul:after
+{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+nav ul {display: inline-block;}
+
+* html nav ul {height: 1%;}
+
+#content {padding: 30px 0;}
+
+.fixNavigation
+{
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}

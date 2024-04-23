@@ -1,0 +1,380 @@
+html,body
+{
+	background-color:#efefef;font-family:Calibri;margin-top:0;margin-left:0;margin-right:0;margin-bottom:0;
+	scrollbar-face-color:#fff;scrollbar-highlight-color:#FFFFFF;scrollbar-shadow-color:#8AA7CA;
+	scrollbar-3dlight-color:#8AA7CA;scrollbar-arrow-color:#8AA7CA;scrollbar-track-color:#FFFFFF;scrollbar-darkshadow-color:#FFFFFF;
+}
+td {font-size:12px;}
+tr{font-size:12px;}
+a.{font-size:12px;}
+input{font-size:11px;}
+textarea{font-size:13px;font-family:Calibri;}
+select{font-size:11px;}
+form{display:inline;}
+
+td.PageAccueil {width:100%;text-align:center;text-align:middle;color:#000000;font-size:70px;font-weight:bold;}
+
+form.None{margin:0;margin-top:30px;width:100%;box-shadow: none;border-radius:none;border:none;}
+
+a.Modif{color:#009966;text-decoration:none;font-weight:bold;}
+a.Modif:link {color:#006699;}
+a.Modif:visited {color:#006699;}
+a.Modif:hover {color:#990000;}
+.Bouton{
+	background-color: #00325f; 
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor:pointer;
+	padding: 6px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	border: 1px solid #ffffff;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	
+}
+.Bouton:hover {
+  background-color: #E60032; 
+  border: 1px solid #00325f;
+}
+.Bouton2{background-color:#FFFFFF;color:#888888;border:1px solid;}
+.Erreur{font-weight:bold;color:#990033;font-size:13px;height:24px;}
+
+/*INFORMATIONS depuis Listedocs.php*/
+td.TitrePage{font-weight:bold;color:#000000;font-size:15px;height:25px;vertical-align:middle;border:1px #000000 solid;background-color:#FFFFFF;border-radius:25px 25px 25px 25px;padding-left:10px;}
+td.DateInfo{color:#999999;font-size:14px;text-align:right;}
+td.TitreInfo{font-size:14px;color:#006699;text-align:left; font-weight:bold;height:25px;}
+td.ContenuInfo{vertical-align:top;color:#000000;font-size:13px;}
+td.FichierJointInfo{vertical-align:top;color:#336699;font-size:14px;}
+td.NomImageInfo{color:#999999;font-size:14px;text-align:center;}
+table.GeneralInfo{background-color:#FFFFFF;border:1px #0077AA solid;width:98%;border-radius:8px 8px 8px 8px;}
+table.LienModifInfo{border-top:1px #0077AA dotted;width:100%;text-align:right;background-color:#FFFFFF;}
+table.TitreInfo{border-bottom:1px #0077AA dotted;width:100%;text-align:right;}
+
+a.Info{color:#0099FF;text-decoration:none;font-weight:bold;font-size:13px;}
+a.Info:link {color:#0099FF;}
+a.Info:visited {color:#0099FF;}
+a.Info:hover {color:#000000;}
+
+/*-------D R O I T S---------*/
+table.Droits{background-color:#FFFFFF;border-bottom:1px #990033 solid;border-top:1px #990033 solid;width:95%;}
+td.GrandDroits{color:#0099FF;font-weight:bold;text-decoration:underline;}
+td.MoyenDroits{color:#006666;font-size:11px;}
+td.PetitDroits{color:#0066CC;font-size:10px;}
+
+/*------------F A C T U R E S------------------*/
+td.EnTeteTabeauAFacturer{text-align:center;color:#000000;font-size:10px;background-color:#FFFFCC;border:1px #003333 solid;}
+td.EnTeteTabeauCommande{text-align:center;color:#FFFFFF;font-size:10px;background-color:#0099FF;border:1px #003333 solid;}
+td.EnTeteTabeauFacture{text-align:center;color:#000000;font-size:10px;background-color:#66FFFF;border:1px #003333 solid;}
+table.TableCommande{background-color:#FFFFFF;width:100%;border-spacing:0px;border:1px #0066CC solid;font-size:11px;padding:0px;border-collapse:collapse;}
+
+/*------------C O M M A N D E S------------------*/
+tr.TitreColsModifCommandes{color:#006600;font-size:11px;}
+tr.TitreColsModifCommandesInchangeables{color:#AAAAAA;font-size:11px;}
+td.TitreCommandes{font-weight:bold;color:#006600;font-size:11px;text-decoration:underline;}
+td.TitreCommandesInchangeables{font-weight:bold;color:#AAAAAA;font-size:11px;text-decoration:underline;}
+td.TotalTabeauAFacturer{text-align:right;color:#000000;font-size:12px;background-color:#FFFFCC;border:1px #003333 solid;font-weight:bold;}
+td.TotalTabeauCommande{text-align:right;color:#FFFFFF;font-size:12px;background-color:#0099FF;border:1px #003333 solid;font-weight:bold;}
+td.TotalTabeauFacture{text-align:right;color:#000000;font-size:12px;background-color:#66FFFF;border:1px #003333 solid;font-weight:bold;}
+
+/*--------------C O M P E T E N C E S-------------*/
+table.ProfilCompetence{border-spacing:0;padding:0px 0px 0px 0px;border-radius:4px 4px 4px 4px;border:1px #0077AA solid;}
+table.TableCompetences{background-color:#FFFFFF;border-spacing:0px;border:1px #0066CC solid;padding:0px;border-radius:12px 12px 12px 12px;padding:6px 6px 6px 6px;}
+tr.TitreSousPageCompetences{font-weight:bold;color:#FFFFFF;font-size:13px;height:20px;vertical-align:middle;background-color:#585858;}
+td.TitreICL{font-weight:bold;font-size:24px;vertical-align:middle;text-align:center;}
+td.TitreSousPageCompetencesPetit{color:#FFFFFF;font-size:10px;text-align:center;vertical-align:middle;border-bottom:1px #000000 solid;border-top:1px #000000 solid;background-color:#999999;}
+td.PetiteCategorieCompetence{background-color:#A9D0F5;}
+td.EnTeteTableauCompetencesMaitre{text-align:left;color:#000000;font-size:13px;background-color:#5882FA;border:1px #003333 solid;font-weight:bold;}
+td.EnTeteTableauCompetences{text-align:left;color:#000000;border-bottom:1px #003333 solid;font-weight:bold;}
+td.En_Tete_Cellule_Tableau_Competence{text-align:center;color:#000000;font-size:11px;background-color:#A9D0F5;border:1px #003333 solid;vertical-align:top;width:15px;}
+td.En_Tete_Cellule_Tableau_Competence0{text-align:center;color:#000000;font-size:11px;background-color:#A9D0F5;border:1px #003333 solid;vertical-align:top;width:15px;}
+td.En_Tete_Cellule_Tableau_Competence1{text-align:center;color:#FFFFFF;font-size:11px;background-color:#999999;border:1px #003333 solid;vertical-align:top;width:15px;}
+td.Cellule_Tableau_Competence{border:1px #0066CC solid;text-align:center;}
+a.Competences{color:#006699;text-decoration:none;font-weight:bold;font-size:13px;}
+a.Competences:link {color:#006699;}
+a.Competences:visited {color:#006699;}
+a.Competences:hover {color:#CC0000;}
+a.TableCompetences{color:#006699;text-decoration:none;}
+a.TableCompetences:link {color:#006699;}
+a.TableCompetences:visited {color:#006699;}
+a.TableCompetences:hover {color:#CC0000;}
+.clsVertTB  { -ms-writing-mode:tb-rl }
+
+td.En_Tete_Cellule_Indicateur_Competence0{color:#000000;font-size:11px;background-color:#eeeeee;border:1px #003333 solid;vertical-align:middle;}
+td.En_Tete_Cellule_Indicateur_Competence1{color:#000000;font-size:11px;background-color:#FFFFFF;border:1px #003333 solid;vertical-align:middle;}
+
+/* DQ */
+td.TitreDQ{font-weight:bold;color:#000066;font-size:19px;vertical-align:middle;background-color:#DDDDDD;}
+
+/* CONNEXION */
+td.connexion{color:#1499d6;font-size:18px;}
+
+.Bouton#Accueil{background-color:#a8d6ff;color:#0066CC;border:none;font-size:15px;width:150px;}
+.Bouton#Accueil:hover{background-color:#1499d6;color:#ffffff;border:1px solid;font-size:15px;width:150px;}
+
+.Bouton#alert_button{background-color:#a8d6ff;color:#0066CC;border:none;font-size:15px;width:150px;}
+.Bouton#alert_button:hover{background-color:#1499d6;color:#ffffff;border:1px solid;font-size:15px;width:150px;}
+
+td.aaa{text-align:center;font-size:30px;color:#0067b6;}
+img.arrierePlan{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+/* BOITE A IDEES */
+table.GeneralIdees{background-color:#FFFFFF;border:1px #0077AA solid;width:50%;border-radius:8px 8px 8px 8px;}
+textarea.Contenu{
+	font:Arial;font-size:15px;
+	resize:none;
+	width:99%;
+	height:300px;
+}
+
+textarea.DescriptionTextarea{
+	font:Arial;font-size:15px;
+	resize:none;
+	width:99%;
+	height:200px;
+}
+
+textarea.DescriptionTextareaRead{
+	font:Arial;font-size:15px;
+	resize:none;
+	width:99%;
+	height:100px;
+}
+
+textarea.CommentaireTextarea{
+	font:Arial;font-size:15px;
+	resize:none;
+	width:99%;
+	height:50px;
+}
+
+#navigation{
+			}
+.fixNavigation{
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+}
+
+td.Libelle{
+	font-weight : bold;
+}
+
+a.tri{color:#000000;font-weight:bold;}
+a.tri:link {color:#000000;font-weight:bold;}
+a.tri:visited {color:#000000;font-weight:bold;}
+a.tri:hover {color:#000000;font-weight:bold;}
+a.tri:active {color:#000000;font-weight:bold;}
+
+#leHover{
+	position: relative;
+	color : black;
+	text-decoration: none;
+}
+#leHover span {
+   display: none; /*  On masque l'infobulle. */
+}
+
+#leHover:hover {
+   z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
+   cursor: help; /* On change le curseur par défaut par un curseur d'aide. */
+}
+#leHover:hover span {
+   display: inline; /* On affiche l'infobulle. */
+   position: absolute;
+   white-space: nowrap; /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
+   top: 30px; /* On positionne notre infobulle. */
+   left: 20px;
+   background: white;
+   color: black;
+   padding: 3px;
+   border: 1px solid #75a3ff;
+   border-left: 4px solid #75a3ff;
+   font-size:12px;
+   text-align:left;
+}
+
+#leHover:hover span table,#leHover:hover span table td {
+   border: 1px solid black;
+   text-align : center;
+   border-collapse : collapse;
+}
+
+#leHover2{
+	position: relative;
+	color : black;
+	text-decoration: none;
+}
+#leHover2 span {
+   display: none; /*  On masque l'infobulle. */
+}
+
+#leHover2:hover {
+   z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
+   cursor: help; /* On change le curseur par défaut par un curseur d'aide. */
+}
+#leHover2:hover span {
+   display: inline; /* On affiche l'infobulle. */
+   position: absolute;
+   top: 30px; /* On positionne notre infobulle. */
+   left: 20px;
+   background: white;
+   color: black;
+   padding: 3px;
+   width:90px;
+   border: 1px solid #75a3ff;
+   border-left: 4px solid #75a3ff;
+   font-size:12px;
+   text-align:left;
+}
+
+#leHover2:hover span table,#leHover2:hover span table td {
+   border: 1px solid black;
+   text-align : center;
+   border-collapse : collapse;
+}
+
+#leHover3{
+	position: relative;
+	color : black;
+	text-decoration: none;
+}
+#leHover3 span {
+   display: none; /*  On masque l'infobulle. */
+}
+
+#leHover3:hover {
+   z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
+   cursor: help; /* On change le curseur par défaut par un curseur d'aide. */
+}
+#leHover3:hover span {
+   display: inline; /* On affiche l'infobulle. */
+   position: absolute;
+   top: 30px; /* On positionne notre infobulle. */
+   left: 20px;
+   background: white;
+   color: black;
+   padding: 3px;
+   width:400px;
+   border: 1px solid #75a3ff;
+   border-left: 4px solid #75a3ff;
+   font-size:12px;
+   text-align:left;
+}
+
+#leHover3:hover span table,#leHover3:hover span table td {
+   border: 1px solid black;
+   text-align : center;
+   border-collapse : collapse;
+}
+.blink_me {
+	color:red;
+	font-weight:bold;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+#hoverCritereOTD{
+	position: relative;
+	color : black;
+	text-decoration: none;
+}
+#hoverCritereOTD span {
+   display: none; /*  On masque l'infobulle. */
+}
+
+#hoverCritereOTD:hover {
+   z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
+   cursor: help; /* On change le curseur par défaut par un curseur d'aide. */
+}
+#hoverCritereOTD:hover span {
+   display: inline; /* On affiche l'infobulle. */
+   position: absolute;
+   top: 30px; /* On positionne notre infobulle. */
+   left: 20px;
+   background: white;
+   color: black;
+   padding: 3px;
+   width:90px;
+   border: 1px solid #75a3ff;
+   border-left: 4px solid #75a3ff;
+   font-size:12px;
+   text-align:left;
+}
+
+#hoverCritereOTD:hover span table,#hoverCritereOTD:hover span table td {
+   border: 1px solid black;
+   text-align : center;
+   border-collapse : collapse;
+}
+
+.hoverCritereOTD{
+	position: relative;
+	color : black;
+	text-decoration: none;
+}
+.hoverCritereOTD span {
+   display: none; /*  On masque l'infobulle. */
+}
+
+.hoverCritereOTD:hover {
+   z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
+   cursor: help; /* On change le curseur par défaut par un curseur d'aide. */
+}
+.hoverCritereOTD:hover span {
+   display: inline; /* On affiche l'infobulle. */
+   position: absolute;
+   top: 30px; /* On positionne notre infobulle. */
+   left: 20px;
+   background: white;
+   color: black;
+   padding: 3px;
+   width:90px;
+   border: 1px solid #75a3ff;
+   border-left: 4px solid #75a3ff;
+   font-size:12px;
+   text-align:left;
+}
+
+.hoverCritereOTD:hover span table,.hoverCritereOTD:hover span table td {
+   border: 1px solid black;
+   text-align : center;
+   border-collapse : collapse;
+}

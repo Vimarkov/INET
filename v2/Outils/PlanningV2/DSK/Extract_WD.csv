@@ -1,0 +1,22 @@
+Last Name;First Name;Gender;Primary Nationality (Worker) - Locale Sensitive;CF_FD_KITRY_Date of Birth;City of Birth (Locale Sensitive);Worker Type;Email - Home;CFINT100 Dashless Employee ID;CF LRV Worker's Contract Reason ID
+ELOI;Angélys;Female;France;17/05/1994;Nantes;Employee;bertrandangelys@gmail.com;2107231;Employee_Contract_Reason_CDD_Surcroit
+ROBERT;Edgar;Male;France;27/03/2001;Nantes;Employee;;2107232;Employee_Contract_Reason_CDI
+VIEILLARD;ELLA;Female;France;18/12/1999;Toulouse;Employee;ella1999@hotmail.fr;2107235;Employee_Contract_Reason_CDI
+VANBERTEN;Sacha;Female;France;23/02/1996;Arras;Employee;sacha.vbt@hotmail.fr;2107236;Employee_Contract_Reason_CDD_Surcroit
+TARROUX;Julien;Male;France;08/10/1991;Albi;Employee;julientarroux@orange.fr;2107240;Employee_Contract_Reason_CDI
+TCHIZINGA-MAKAYA;Freddy;Male;Congo, Democratic Republic of the;26/08/1978;Pointe Noire;Employee;eucher1er@hotmail.fr;2107244;Employee_Contract_Reason_CDD_Surcroit
+PASTOR;Patrick;Male;France;03/06/1972;Valence;Employee;patrick-pastor@bbox.fr;2107271;Employee_Contract_Reason_CDI
+OUIRINI;Yassine;Male;France;29/09/1995;Toulouse;Employee;yassine.ouirini@hotmail.fr;2107272;Employee_Contract_Reason_CDI
+SHAKI;Mohammed;Male;France;11/01/1993;toulouse;Employee;mohamedshaki31@outlook.fr;2107273;Employee_Contract_Reason_CDI
+BECERIK;Baris;Male;France;11/04/1985;NANTUA;Employee;baris.becerik@protonmail.com;2107257;Employee_Contract_Reason_CDI
+CHEDOTAL;Elodie;Female;France;01/10/1983;;Employee;elochedotal@gmail.com;2107259;Employee_Contract_Reason_CDI
+LUCCHESE;Romain;Male;France;20/09/2003;ALBI;Employee;romain.lucchese81@gmail.com;2107270;Employee_Contract_Reason_CDI
+BUGARET;Jérémy;Male;France;30/06/1985;BORDEAUX;Employee;jeremyb619@gmail.com;2107277;Employee_Contract_Reason_CDI
+SUAREZ;Belinda;Female;France;21/10/1981;TOULOUSE;Employee;;2107275;Employee_Contract_Reason_CDI
+ALEXANDRE;Séverine;Female;France;13/04/1989;Beziers;Employee;;2107276;Employee_Contract_Reason_CDI
+BAROT;Valentin;Male;France;27/02/1997;Toulouse;Employee;valentin.barot@icloud.com;2107278;Employee_Contract_Reason_CDI
+HADJIOUI;Ali;Male;France;24/12/1985;Oran;Employee;ali.hadjioui@gmail.com;2107279;Employee_Contract_Reason_CDI
+CHEVALLIER;Paul;Male;France;03/11/2003;CAHORS;Employee;paulchevallier46@gmail.com;2107287;Employee_Contract_Reason_CDI
+GIRAUDON;EMILIE;;;;;Contingent Worker;emilie.giraudon@yahoo.com;2106849;
+COHEN;Laurent;;;;;Contingent Worker;l.cohen-ext@daher.com;2107174;
+LAMBERT;Fanny;;;;;Contingent Worker;fanny.lmbrt@gmail.com;2107197;

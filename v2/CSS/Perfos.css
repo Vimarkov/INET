@@ -1,0 +1,97 @@
+form.test{
+  margin:0;
+  margin-top:0;
+  width:100%;
+  box-shadow: none;
+  border-radius:none;
+  border:none;
+}
+
+td.enTetePERFOS{
+	font:Arial;color:#FFFFFF;font-size:15px;
+	vertical-align:middle;
+	background-color:#2b459c;
+	width:35px;
+	text-align:center;
+	padding:1px;
+}
+
+td.SousenTetePERFOS{
+	font:Arial;color:#2b459c;
+	vertical-align:middle;
+	width:35px;
+	text-align:center;
+	padding:1px;
+}
+
+textarea{ 
+	font:Arial;font-size:15px;
+	resize:none;
+}
+
+textarea.CommentaireLettre{
+	font:Arial;font-size:15px;
+	resize:none;
+	width:150px;
+	height:85px;
+}
+
+textarea.CommentaireG{
+	font:Arial;font-size:15px;
+	resize:none;
+	width:99%;
+	height:50px;
+}
+
+input.BoutonVert{
+	background:#e2fdbd;
+}
+
+input.BoutonRouge{
+    background:#ffafae;
+}
+
+td.lettreVerte{
+	font:Arial;font-size:30px;
+	background:#e2fdbd;
+	border:1px #d9d9d7 solid;
+}
+td.lettreRouge{
+	font:Arial;font-size:30px;
+	background:#ffafae;
+	border:1px #d9d9d7 solid;
+}
+td.lettre{
+	font:Arial;font-size:30px;
+	border:1px #d9d9d7 solid;
+	background-color:#ffffff;
+}
+
+td.centre{
+	border-right:1px #0066CC solid
+
+}
+
+td.enTete{
+	font:Arial;font-size:15px;
+}
+
+td.chiffre{
+	align:center;
+	font:Arial;font-size:20px;
+	padding-left:10px;
+}
+
+table.tablePERFOS{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+td.TitreSousPagePERFOS{
+	text-align:center;
+	font-size:16px;
+	color:#ffffff;
+	border-bottom:1px #0066CC solid;
+	font-weight:bold;
+	background-color:#356db2;
+}

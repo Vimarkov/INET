@@ -1,0 +1,38 @@
+.LibelleMobile{
+	font-weight : bold;
+	font-size:2em;
+	color:#00325F;
+}
+
+select.Mobile{
+	font-size:1.8em;
+	width:250px;
+}
+
+input.Mobile{
+	font-size:2.3em;
+	width:250px;
+}
+
+input.Checkbox{
+	height: 50px; 
+	width: 50px;
+}
+
+.EnTeteTableauCompetencesMobile{
+	text-align:left;
+	color:#00325F;
+	border-bottom:2px #055981 solid;
+	font-weight:bold;
+	font-size:2em;
+}
+
+
+td.LigneMobile{
+	border-bottom:1px #d9d9d7 solid;
+	font-size:2em;
+}
+
+.BoutonMobile{
+	font-size:2em;
+}

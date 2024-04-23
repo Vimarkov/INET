@@ -1,0 +1,31 @@
+ul.sidenav {
+	font-size: 1.2em;
+	float: left;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #6EB4CD;
+	border-bottom: 1px solid #6EB4CD;
+	border-top: 1px solid #3f93ef;
+}
+ul.sidenav li a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	width: 155px;
+	padding: 10px 10px 10px 35px;
+	border-top: 1px solid #6EB4CD;
+	border-bottom: 1px solid #3f93ef;
+}
+
+ul.sidenav li a:hover {
+	background: #3f93ef;
+	border-top: 1px solid #6EB4CD;
+}
+ul.sidenav li span{	display: none; }
+ul.sidenav li a:hover span {
+	display: block;
+	font-size: 0.8em;
+	padding: 10px 0;
+}

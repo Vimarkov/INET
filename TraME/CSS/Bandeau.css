@@ -1,0 +1,43 @@
+html, body{
+	font-family:Calibri;
+	scrollbar-face-color:#fff;scrollbar-highlight-color:#FFFFFF;scrollbar-shadow-color:#008e3e;
+	scrollbar-3dlight-color:#008e3e;scrollbar-arrow-color:#008e3e;scrollbar-track-color:#FFFFFF;scrollbar-darkshadow-color:#FFFFFF;*/
+}
+
+body{
+	/*gradient background color */
+    background: #00325F; /* Old browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00325F', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+td.Titre {text-align:center;color:white;font-size:35px;font-weight:bold;font-family:Calibri;}
+table.Logo{
+	background-color:#FFFFFF;
+	border-spacing:0px;padding:0px;
+	border-radius:12px 12px 12px 12px;
+	padding:6px 6px 6px 6px;
+	behavior: url(../Images/PIE/PIE.htc);
+}
+.Bouton{
+	background-color: #E60032;
+    color: white;
+    border: none;
+}
+.Bouton:hover {
+	background-color: white;
+	color: black;  
+}
+
+/*----------------------------------------P O L I C E S--------------------------------------*/
+/*###########################################################################################*/
+.Identification{color:#FFFFFF;font-size:15px;}
+.PetitRecherche{color:#FFFFFF;font-size:10px;}
+
+form.form1{
+  margin:0;
+  margin-top:0;
+  width:100%;
+  box-shadow: none;
+  border-radius:none;
+  border:none;
+}
